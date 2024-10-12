@@ -81,14 +81,6 @@ right: -20%;
   opacity: 1;
 }
 
-#stopper {
-line-height: 120px;
-  position: absolute;
-  bottom: -8%;
-  left: 0;
-  right: 0;
-}
-
 #disclaimer {
 position: absolute;
 right: 1%;
