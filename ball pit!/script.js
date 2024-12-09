@@ -128,11 +128,11 @@ checkBackgroundChange() {
     generateColor() {
     // Pre-generate a color palette to reduce random color generation overhead
     const colorPalette = [
-        'hsla(346, 85%, 50%, 1)'  ,
+        'hsla(346, 85%, 50%, 1)',
         'hsla(53, 100%, 48%, 1)',
         'hsla(116, 100%, 40%, 1)',
         'hsla(243, 100%, 48%, 1)',
-        'hsla(27, 100%, 48%, 1)',
+        // 'hsla(27, 100%, 48%, 1)',
         'hsla(316, 100%, 50%, 1)',
         'hsla(283, 100%, 48%, 1)'
     ];
