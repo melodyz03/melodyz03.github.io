@@ -5,7 +5,7 @@ class BallPitSimulation {
         this.balls = [];
         this.width = window.innerWidth;
         this.height = window.innerHeight;
-        this.gravity = 1;
+        this.gravity = 0.1;
         this.friction = 0.99;
         this.bounce = 0.6;
         this.initializeCanvas();
