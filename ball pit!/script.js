@@ -193,7 +193,7 @@ handleClick(event) {
             }
 
             // Normal ball handling
-            ball.velocityY = -Math.random() * 40 - 30;
+            ball.velocityY = -Math.random() * 25 - 30;
             ball.velocityX += (Math.random() - 0.5) * 15;
             //The negative vertical velocity makes the ball jump up, while the slight random horizontal velocity adds a bit of unpredictability to the movement.
             this.convertToPastel(ball.color);
