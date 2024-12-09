@@ -107,7 +107,7 @@ checkBackgroundChange() {
     }
 
     createInitialBalls(count = 70) {
-        const ballRadius = 25;
+        const ballRadius = 30;
         const startY = this.height / 4;
 
         for (let i = 0; i < count; i++) {
