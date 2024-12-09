@@ -106,7 +106,7 @@ checkBackgroundChange() {
         this.canvas.style.pointerEvents = 'auto';
     }
 
-    createInitialBalls(count = 70) {
+    createInitialBalls(count = 100) {
         const ballRadius = 30;
         const startY = this.height / 4;
 
