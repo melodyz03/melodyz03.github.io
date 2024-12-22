@@ -17,7 +17,7 @@
   white-space: nowrap;
   margin-top: 10px; /* space between image and text */
 }
-#webring-subtitle {
+/* #webring-subtitle {
   position: absolute;
   bottom: -20%;
   height: auto;
@@ -27,14 +27,13 @@
   color: #1c1cff;
   white-space: nowrap;
   margin-top: 5px;
-}
+} */
 #webring img {
   height: auto;
   width: 80px;
 }
 #left-arrow {
   position: absolute;
-  color: white;
   font-size: 40px;
   bottom: -11%;
   left: -20%;
@@ -46,10 +45,14 @@
 }
 #right-arrow {
   position: absolute;
-  color: white;
   font-size: 40px;
   bottom: -11%;
   right: -20%;
+}
+#left-arrow a,
+#right-arrow a {
+  color: #ff90d2;
+  text-decoration: none;
 }
 
 
@@ -129,7 +132,7 @@
 
 #popup-trigger {
   position: fixed;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
@@ -751,4 +754,26 @@ body {
   width: 140px;
   height: auto;
   transition: transform 0.3s ease;
+}
+.blur1 {
+filter: blur(10px);
+mix-blend-mode: soft-light;
+position: absolute;
+top: 70%;
+right: 75%;
+width: 130px;
+height: 130px;
+background-color: pink;
+border-radius: 50%;
+}
+.blur2 {
+filter: blur(10px);
+mix-blend-mode: soft-light;
+position: absolute;
+top: 35%;
+right: 80%;
+width: 100px;
+height: 100px;
+background-color: pink;
+border-radius: 50%;
 }
